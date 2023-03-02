@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "https://fonts.googleapis.com/css?family=Poppins";
 
 body {
   background: #e5e5e5;
@@ -20,8 +21,27 @@ ul {
   list-style: none;
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  nav {
+.fix-to-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  /* nav {
     background-color: #fff;
     width: 100%;
     height: 73px;
@@ -32,182 +52,237 @@ ul {
     top: 0;
     left: 0;
     padding: 26px 24px;
+  } */
+
+  .top-nav {
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
   }
 
   .my-logo {
     font-weight: 700;
-    font-size: 18px;
+    font-family: sans-serif;
+    font-size: 15px;
     line-height: 20px;
     color: #6070ff;
   }
 
-  .menu {
-    padding: 0;
-    border: none;
-    background: none;
-  }
-
-  .headline_section {
-    background-image: url("./images/background.jpg");
-    background-repeat: no-repeat;
-    margin-top: 72px;
-    background-size: 100%;
-    border-bottom-left-radius: 100px;
-    justify-content: center;
-    height: 718px;
-    width: 100%;
-    background-color: #fff;
+  .menu-content {
     display: flex;
-    align-items: start;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
-  .div-main {
-    margin-top: 100px;
-    padding: 0 24px;
-  }
-
-  h1 {
-    font-size: 40px;
-    font-style: normal;
-    line-height: 52px;
-    font-weight: 700;
-    margin-bottom: 12px;
-    color: #172b4d;
-  }
-
-  .capability {
-    line-height: 24px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: justify;
-    margin-bottom: 12px;
+  .menu-content li a {
+    margin-left: 30px;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 20px;
     color: #344563;
   }
 
+  .headline_section {
+    background-image: url("./images/Header bg@2x.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 100% 90%;
+    border-radius: 0 0 0 50px;
+  }
+  a {
+    text-decoration-line: none;
+    color: #344563;
+  }
+
+  .div-main {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  h1 {
+    color: #172b4d;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 190px;
+    padding-bottom: 16px;
+  }
+
+  .fix-to-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  .top-nav {
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  .capability {
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    color: #344563;
+    text-decoration: none;
+  }
+
   .social-contact {
-    line-height: 24px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    margin-bottom: 12px;
     color: #7f8cff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 5px 5px 0;
   }
 
   .social-icons {
     display: flex;
-    align-items: center;
-    gap: 12px;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0%;
+    color: #505f79;
+    gap: 10px;
+    padding-bottom: 128px;
   }
 
   .social-icon-list {
-    list-style-type: none;
-    display: inline;
-  }
-
-  .img-icon {
-    padding: 8px;
+    color: #505f79;
+    font-size: large;
+    width: 20px;
   }
 
   .works {
     display: grid;
-    padding: 24px;
     margin-top: 90px;
-    justify-content: center;
-    gap: 88px;
+    gap: 142px;
     align-items: center;
-    width: 100%;
+    width: 90%;
+    margin: 5%;
+    border-radius: 24px;
   }
 
   .content {
     display: flex;
-    flex-direction: column;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-    width: inherit;
-    gap: 12px;
-    align-items: start;
+    flex-direction: row;
+    padding: 14px;
     background: #fff;
-    padding: 16px;
+    width: 100%;
+    border-radius: 18px;
   }
 
-  .content-picture {
-    width: inherit;
+  .content img {
+    width: 50%;
+    height: 50%;
   }
 
   .content-body {
-    align-items: start;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
+    padding-left: 20px;
+    width: 50%;
   }
 
   .layout {
-    align-items: center;
+    /* align-items: center; */
     display: flex;
-    justify-content: space-evenly;
-    gap: 12px;
+    gap: 9px;
   }
 
+  /* .layout li img {
+    width: 3px;
+    height: 3px;
+  } */
+
   .content-title {
+    font-size: 25px;
     font-weight: 700;
     color: #172b4d;
-    font-style: normal;
-    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   .call {
+    padding-top: 3px;
     color: #344563;
     font-style: normal;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 600;
   }
 
   .profession {
+    padding-top: 3px;
     color: #7a869a;
     font-style: normal;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 600;
   }
 
   .year {
+    padding-top: 3px;
     color: #7a869a;
     font-style: normal;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 600;
   }
 
   .job-explanation {
-    color: #344563;
-    font-style: normal;
-    font-size: 15px;
     font-weight: 400;
+    font-size: 10px;
+    color: #344563;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .programming {
     display: flex;
-    align-items: center;
-    gap: 8px;
+    flex-direction: row;
+    margin-bottom: 20px;
   }
 
   .platform {
-    color: #6070ff;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
     background: #ebebff;
-    padding: 4px 12px;
-    letter-spacing: 0.03em;
     border-radius: 8px;
-    font-style: normal;
+    color: #6070ff;
+    font-weight: 500px;
     font-size: 12px;
+    background-color: #ebebff;
+    
+    margin-right: 10px; */
+    /* padding: 8px 12px; */
+    padding-right: 8px;
+  }
+
+  .platform a {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    background: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
     font-weight: 500;
+    font-size: 9px;
+    background-color: #ebebff;
+    padding: 5px 9px;
   }
 
   .content-view-button {
     color: #396df2;
     font-style: normal;
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 500;
     border: 1px solid #6070ff;
-    border-radius: 8px;
+    border-radius: 5px;
+    height: 35px;
     padding: 12px;
     background: #fff;
     display: flex;
