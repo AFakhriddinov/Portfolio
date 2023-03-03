@@ -100,7 +100,9 @@ Feel free to check the [issues page](../../issues/).
 
 
 
-If you like this project, please let me know and we can improve it further
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please let me know and we can improve it further. You are welcome to support this project by giving suggestions for improvement.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
