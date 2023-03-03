@@ -1,4 +1,4 @@
-# portfolio desktop version
+# Portfolio Desktop Version
 
 <a name="readme-top"></a>
 
