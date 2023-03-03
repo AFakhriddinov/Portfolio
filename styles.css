@@ -275,9 +275,20 @@ ul {
   }
 
   .content-view-button:hover {
-    background: #6070ff;
+animation-name: changing-background;
+animation-duration: 0.5s;
+  }
+
+  @keyframes changing-background {
+  from {
+    color: #396df2;
+    background-color: #fff;
+  }
+  to {
+    background-color: #6465ff; /* Green */
     color: #fff;
   }
+}
 
   .content-view-button:disabled {
     border: 1px solid #c1c7d0;
