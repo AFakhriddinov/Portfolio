@@ -56,7 +56,7 @@ ul {
   .my-logo {
     font-weight: 700;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 20px;
     color: #6070ff;
   }
@@ -71,7 +71,7 @@ ul {
     margin-left: 30px;
     text-decoration-line: none;
     font-weight: 600;
-    font-size: 11px;
+    font-size: 15px;
     line-height: 20px;
     color: #344563;
   }
@@ -82,7 +82,7 @@ ul {
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: 100%;
-    border-radius: 0 0 0 50px;
+    border-radius: 0 0 0 100px;
     padding-bottom: 150px;
   }
 
@@ -93,7 +93,7 @@ ul {
 
   h1 {
     color: #172b4d;
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 700;
     padding-top: 190px;
     padding-bottom: 16px;
@@ -110,7 +110,15 @@ ul {
   .capability {
     width: 100%;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 20px;
+    color: #344563;
+    text-decoration: none;
+  }
+
+  .capability2 {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
     color: #344563;
     text-decoration: none;
   }
@@ -118,7 +126,7 @@ ul {
   .social-contact {
     color: #7f8cff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     padding: 15px 5px 5px 0;
   }
 
@@ -139,14 +147,15 @@ ul {
     color: #505f79;
     font-size: large;
     width: 20px;
+    padding: 13px 30px 13px 0;
   }
 
   .works {
     display: grid;
     gap: 142px;
     align-items: center;
-    width: 90%;
-    margin: 5%;
+    width: 80%;
+    margin: 10%;
     border-radius: 24px;
   }
 
@@ -156,7 +165,7 @@ ul {
     padding: 14px;
     background: #fff;
     width: 100%;
-    border-radius: 18px;
+    border-radius: 24px;
   }
 
   .content img {
@@ -174,8 +183,13 @@ ul {
     gap: 9px;
   }
 
+  .layout li img {
+    width: 8px;
+    height: 8px;
+  }
+
   .content-title {
-    font-size: 25px;
+    font-size: 36px;
     font-weight: 700;
     color: #172b4d;
     margin-top: 5px;
@@ -186,7 +200,7 @@ ul {
     padding-top: 3px;
     color: #344563;
     font-style: normal;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 600;
   }
 
@@ -194,7 +208,7 @@ ul {
     padding-top: 3px;
     color: #7a869a;
     font-style: normal;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 600;
   }
 
@@ -202,13 +216,13 @@ ul {
     padding-top: 3px;
     color: #7a869a;
     font-style: normal;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 600;
   }
 
   .job-explanation {
     font-weight: 400;
-    font-size: 10px;
+    font-size: 16px;
     color: #344563;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -222,6 +236,7 @@ ul {
 
   .platform {
     padding-right: 8px;
+    border-radius: 8px;
   }
 
   .platform a {
@@ -231,25 +246,32 @@ ul {
     border-radius: 8px;
     color: #6070ff;
     font-weight: 500;
-    font-size: 9px;
+    font-size: 12px;
     background-color: #ebebff;
-    padding: 5px 9px;
+    padding: 4px 12px 4px 12px;
+    letter-spacing: 3%;
+    line-height: 16px;
   }
 
   .content-view-button {
     color: #396df2;
     font-style: normal;
-    font-size: 13px;
+    font-size: 17px;
     font-weight: 500;
     border: 1px solid #6070ff;
-    border-radius: 5px;
-    height: 35px;
+    border-radius: 8px;
+    height: 50px;
     padding: 12px;
     background: #fff;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
+  }
+
+  .blue-btn {
+    background-color: #4053fc;
+    color: #ffffff;
   }
 
   .content-view-button:focus {
@@ -275,23 +297,23 @@ ul {
     margin-bottom: -110px;
     border-radius: 0 100px 0 0;
     padding: 40px;
-    padding-bottom: 120px;
-  }
-
-  .knowledge {
-    padding: 50px 24px;
-    width: 50%;
+    padding-bottom: 150px;
   }
 
   .page {
     padding: 40px 24px;
-    width: 50%;
+    width: 40%;
+  }
+
+  .knowledge {
+    padding: 50px 24px;
+    width: 60%;
   }
 
   .get-resume {
     color: #396df2;
     font-style: normal;
-    font-size: 12px;
+    font-size: 17px;
     font-weight: 500;
     text-align: center;
     letter-spacing: 0.03em;
@@ -301,7 +323,7 @@ ul {
     border: 1px solid #6070ff;
     border-radius: 6px;
     margin-top: 15px;
-    padding: 8px;
+    padding: 12px;
   }
 
   .get-resume:focus {
@@ -323,6 +345,9 @@ ul {
     align-items: center;
     justify-content: space-between;
     display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
   }
 
   .know {
@@ -344,7 +369,13 @@ ul {
   }
 
   .know .knowledge-summary img {
-    width: 50%;
+    width: 48px;
+    height: 48px;
+  }
+
+  .know .knowledge-summary a {
+    font-size: 15px;
+    font-weight: 500;
   }
 
   hr {
@@ -368,6 +399,7 @@ ul {
 
   .head {
     font-size: 40px;
+    font-weight: 700;
     color: #172b4d;
   }
 
@@ -379,7 +411,7 @@ ul {
     padding: 0 24px;
     background-repeat: no-repeat;
     background-position-x: right;
-    border-top-left-radius: 92px;
+    border-top-left-radius: 100px;
     background-size: 100%;
     margin-top: 40px;
     gap: 20px;
@@ -403,7 +435,7 @@ ul {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
   }
 
@@ -411,15 +443,18 @@ ul {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 20px;
     text-align: center;
-    margin-left: 180px;
-    margin-right: 180px;
     color: #ebebff;
+    line-height: 28px;
+    width: 569px;
+    height: 102px;
+    margin: auto;
   }
 
   form input {
-    width: 35%;
+    width: 447px;
+    height: 48px;
     margin-bottom: 12px;
     border: 1px solid #cfd8dc;
     padding: 5px 10px 5px 10px;
@@ -427,7 +462,7 @@ ul {
   }
 
   form textarea {
-    width: 35%;
+    width: 447px;
     margin-bottom: 12px;
     border: 1px solid #cfd8dc;
     padding: 15px;
@@ -444,13 +479,14 @@ ul {
     align-self: start;
     margin: auto;
     padding: 5px 10px;
-    font-size: 13px;
+    font-size: 17px;
     background: #fff;
     border-radius: 4px;
     margin-bottom: 65px;
     font-weight: 500;
     display: flex;
     border: none;
+    color: #6070ff;
   }
 
   #submit:hover {
