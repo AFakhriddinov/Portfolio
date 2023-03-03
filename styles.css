@@ -28,6 +28,7 @@ ul {
   left: 0;
   z-index: 1030;
 }
+
 .top-nav {
   display: flex;
   flex-direction: row;
@@ -41,19 +42,6 @@ ul {
 }
 
 @media only screen and (min-width: 768px) {
-  /* nav {
-    background-color: #fff;
-    width: 100%;
-    height: 73px;
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    left: 0;
-    padding: 26px 24px;
-  } */
-
   .top-nav {
     padding-top: 0;
     padding-bottom: 0;
@@ -79,9 +67,9 @@ ul {
     justify-content: space-between;
   }
 
-  .menu-content li a {
+  .navig {
     margin-left: 30px;
-    list-style-type: none;
+    text-decoration-line: none;
     font-weight: 600;
     font-size: 11px;
     line-height: 20px;
@@ -96,10 +84,6 @@ ul {
     background-size: 100%;
     border-radius: 0 0 0 50px;
     padding-bottom: 150px;
-  }
-  a {
-    text-decoration-line: none;
-    color: #344563;
   }
 
   .div-main {
@@ -121,13 +105,6 @@ ul {
     right: 0;
     left: 0;
     z-index: 1030;
-  }
-
-  .top-nav {
-    padding-top: 0;
-    padding-bottom: 0;
-    width: 100%;
-    margin: 0;
   }
 
   .capability {
@@ -166,7 +143,6 @@ ul {
 
   .works {
     display: grid;
-    margin-top: 90px;
     gap: 142px;
     align-items: center;
     width: 90%;
@@ -194,15 +170,9 @@ ul {
   }
 
   .layout {
-    /* align-items: center; */
     display: flex;
     gap: 9px;
   }
-
-  /* .layout li img {
-    width: 3px;
-    height: 3px;
-  } */
 
   .content-title {
     font-size: 25px;
@@ -251,25 +221,12 @@ ul {
   }
 
   .platform {
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    background: #ebebff;
-    border-radius: 8px;
-    color: #6070ff;
-    font-weight: 500px;
-    font-size: 12px;
-    background-color: #ebebff;
-    
-    margin-right: 10px; */
-    /* padding: 8px 12px; */
     padding-right: 8px;
   }
 
   .platform a {
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
     background: #ebebff;
     border-radius: 8px;
     color: #6070ff;
@@ -385,6 +342,7 @@ ul {
     flex-direction: column;
     padding: 12px 9px;
   }
+
   .know .knowledge-summary img {
     width: 50%;
   }
@@ -399,8 +357,8 @@ ul {
     font-style: normal;
     font-size: 13px;
     font-weight: 500;
-    /* margin-top: 20px; */
   }
+
   .knowledge-summary > p {
     font-style: normal;
     font-weight: 500;
@@ -446,7 +404,6 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    /* line-height: 52px; */
     text-align: center;
   }
 
