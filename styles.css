@@ -293,8 +293,9 @@ ul {
       color: #396df2;
       background-color: #fff;
     }
+
     to {
-      background-color: #6465ff; /* Green */
+      background-color: #6465ff;
       color: #fff;
     }
   }
@@ -304,10 +305,10 @@ ul {
     color: #5e6c84;
   }
 
-  .blue-btn {
+  /* .blue-btn {
     background-color: #4053fc;
     color: #fff;
-  }
+  } */
 
   .about-me {
     width: 100%;
