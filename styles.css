@@ -111,8 +111,9 @@ ul {
     from {
       margin-left: 200px;
     }
+
     to {
-      margin-left: 0px;
+      margin-left: 0;
     }
   }
 
@@ -305,7 +306,7 @@ ul {
 
   .blue-btn {
     background-color: #4053fc;
-    color: #ffffff;
+    color: #fff;
   }
 
   .about-me {
