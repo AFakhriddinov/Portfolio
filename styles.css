@@ -127,7 +127,7 @@ ul {
   .capability {
     width: 100%;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     color: #344563;
     text-decoration: none;
   }
@@ -192,7 +192,7 @@ ul {
   }
 
   .content-title {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
     color: #172b4d;
     margin-top: 5px;
@@ -203,7 +203,7 @@ ul {
     padding-top: 3px;
     color: #344563;
     font-style: normal;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 600;
   }
 
@@ -211,7 +211,7 @@ ul {
     padding-top: 3px;
     color: #7a869a;
     font-style: normal;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 600;
   }
 
@@ -219,7 +219,7 @@ ul {
     padding-top: 3px;
     color: #7a869a;
     font-style: normal;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 600;
   }
 
@@ -275,20 +275,20 @@ ul {
   }
 
   .content-view-button:hover {
-animation-name: changing-background;
-animation-duration: 0.5s;
+    animation-name: changing-background;
+    animation-duration: 0.5s;
   }
 
   @keyframes changing-background {
-  from {
-    color: #396df2;
-    background-color: #fff;
+    from {
+      color: #396df2;
+      background-color: #fff;
+    }
+    to {
+      background-color: #6465ff; /* Green */
+      color: #fff;
+    }
   }
-  to {
-    background-color: #6465ff; /* Green */
-    color: #fff;
-  }
-}
 
   .content-view-button:disabled {
     border: 1px solid #c1c7d0;
