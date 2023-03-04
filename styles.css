@@ -127,6 +127,14 @@ ul {
   .capability {
     width: 100%;
     font-weight: 400;
+    font-size: 20px;
+    color: #344563;
+    text-decoration: none;
+  }
+
+  .capability2 {
+    width: 100%;
+    font-weight: 400;
     font-size: 16px;
     color: #344563;
     text-decoration: none;
