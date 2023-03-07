@@ -1,4 +1,4 @@
-# Portfolio Desktop Version
+# Portfolio Project
 
 <a name="readme-top"></a>
 
@@ -28,9 +28,9 @@
 
 # 📖 [Portfolio Desktop Version] <a name="about-project"></a>
 
->This project is about building a responsive portfolio project for desktop version with html and css.
+>This project is about deploying a responsive portfolio project built with html and css.
 
-**[Portfolio Desktop Version]** 
+**[Portfolio Project]** 
 
 ## 🛠 Built With <a name="built-with"> HTML and CSS</a>
 
@@ -39,11 +39,15 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Toolbar, headline section, content about works accomplished and contact form. The project was made responsive for desktop screens of minimum 768px]**
+- **[Toolbar, headline section, content about works accomplished and contact form. The project was made responsive for mobile screens of minimum 375px and maximum 768px. Also, it was built for desktop screens of minimum 768px]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Live Demo Link](https://afakhriddinov.github.io/Portfolio-desktop-version/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
