@@ -80,6 +80,9 @@ Clone this repository to your desired folder:
 - Twitter: [@facebookhandle](https://www.facebook.com/abdulaziz.faxriddinov)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-aziz-fakhriddinov-5297a6107/)
 
+Here is my loom video about project description [Presentation](https://www.loom.com/share/054692bcffce4dc7ad3982a5e2a27629)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
