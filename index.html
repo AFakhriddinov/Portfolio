@@ -5,16 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./javascript.js"></script>
     <title>Mobile first portfolio</title>
   </head>
   <body>
     <!-- Navigation section -->
     <header class="top-nav fix-to-top">
-      <div><a href="#logo" class="my-logo">My Logo</a></div>
+      <div>
+        <a href="#logo" class="my-logo">My Logo</a>
+      </div>
       <div class="menu">
-        <button type="button" class="menu-button">
-          <img width="16" src="./images/menu.png" alt="Menu" />
-        </button>
+        <!-- <button type="button" class="menu-button"> -->
+        <img
+          onclick="myFunction()"
+          id="menu-button"
+          width="16"
+          src="./images/menu.png"
+          alt="Menu"
+        />
+        <!-- </button> -->
+        <div class="mobile-menu" id="mobile-menu">
+          <img
+            onclick="myFunction2()"
+            id="close-button"
+            class="mobile-menu-x"
+            src="./images/x.png"
+            alt=""
+          />
+          <ul class="mobile-menu-ul">
+            <li class="mobile-menu-li">
+              <a onclick="myFunction2()" class="mobile-menu-a" href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-menu-li">
+              <a onclick="myFunction2()" class="mobile-menu-a" href="#about"
+                >About</a
+              >
+            </li>
+            <li class="mobile-menu-li">
+              <a onclick="myFunction2()" class="mobile-menu-a" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
         <ul class="menu-content">
           <li><a class="navig" href="#middle_section">Portfolio</a></li>
           <li><a class="navig" href="#about-me">About</a></li>
@@ -87,7 +122,7 @@
       </div>
     </section>
     <!-- Middle section -->
-    <section class="works">
+    <section class="works" id="portfolio">
       <div class="content">
         <img
           src="images/Snapshoot Portfolio1.png"
@@ -242,7 +277,7 @@
       </div>
     </section>
     <!-- About me section -->
-    <section class="about-me">
+    <section class="about-me" id="about">
       <div class="page">
         <h2 class="head">
           About
@@ -323,7 +358,7 @@
       </div>
     </section>
 
-    <section class="contact-form">
+    <section class="contact-form" id="contact">
       <div class="contact-tittle">
         <h2 class="contact-me-text">Contact me</h2>
       </div>
