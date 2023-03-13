@@ -41,6 +41,8 @@ ul {
   background-color: #fff;
 }
 
+/* Mobile version */
+
 @media screen and (min-width: 375px) and (max-width: 768px) {
   .top-nav {
     background-color: #fff;
