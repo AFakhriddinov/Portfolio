@@ -55,6 +55,14 @@ ul {
     padding: 26px 24px;
   }
 
+  .fix-to-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
   .my-logo {
     font-weight: 700;
     font-size: 18px;
