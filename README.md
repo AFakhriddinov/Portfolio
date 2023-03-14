@@ -26,16 +26,17 @@
 
 
 
-# 📖 [Portfolio Desktop Version] <a name="about-project"></a>
+# 📖 [Portfolio Mobile Menu] <a name="about-project"></a>
 
->This project is about building a responsive portfolio project for desktop version with html and css.
+>This project is about building an interactive mobile menu with javascript.
 
-**[Portfolio Desktop Version]** 
+**[Portfolio Mobile Menu]** 
 
-## 🛠 Built With <a name="built-with"> HTML and CSS</a>
+## 🛠 Built With <a name="built-with"> HTML, CSS and JS</a>
 
+### Tech Stack <a name="tech-stack"></a>
 
-
+This Project was buiilt using simple html, css and js to for mobile and desktop screens
 
 ### Key Features <a name="key-features"></a>
 
@@ -50,12 +51,6 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
-
-In order to run this project you need:
-
-Text editor and internet browser and github account
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -66,6 +61,35 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Prerequisites
+
+In order to run this project you need: Text editor and internet browser and github account
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Install
+
+clone this project to your local environment and open in the browser
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Usage
+
+Use this project in the browsers of mobile phones and desktops
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Run tests
+
+npm run test
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Deployment
+
+You can deploy this project on GitHub Pages
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 👥 Authors <a name="authors"></a>
@@ -84,7 +108,7 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-Add JS functionality
+Add JS functionality for middle section and footer section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
