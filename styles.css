@@ -543,6 +543,7 @@ ul {
 
   #menu-button {
     display: none;
+    cursor: pointer;
   }
 
   .menu-content {
