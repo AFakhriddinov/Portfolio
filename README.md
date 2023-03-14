@@ -15,7 +15,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -44,7 +44,12 @@ This Project was buiilt using simple html, css and js to for mobile and desktop 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+ ## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Live Demo Link](https://afakhriddinov.github.io/Portfolio-desktop-version/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
