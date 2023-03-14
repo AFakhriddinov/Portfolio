@@ -547,6 +547,12 @@ ul {
     font-size: 18px;
     line-height: 20px;
     color: #6070ff;
+    transition: width 1s, height 1s, background-color 1s, transform 1s;
+  }
+
+  .my-logo:hover {
+    color: #afb3da;
+    font-size: 30px;
   }
 
   #menu-button {
@@ -590,6 +596,18 @@ ul {
     font-weight: 700;
     padding-top: 190px;
     padding-bottom: 16px;
+    animation-name: slide-in;
+    animation-duration: 2s;
+  }
+
+  @keyframes slide-in {
+    from {
+      margin-left: 200px;
+    }
+
+    to {
+      margin-left: 0;
+    }
   }
 
   .fix-to-top {
@@ -773,14 +791,31 @@ ul {
   }
 
   .content-view-button:hover {
-    background: #6070ff;
-    color: #fff;
+    animation-name: changing-background;
+    animation-duration: 0.5s;
+  }
+
+  @keyframes changing-background {
+    from {
+      color: #396df2;
+      background-color: #fff;
+    }
+
+    to {
+      background-color: #6465ff;
+      color: #fff;
+    }
   }
 
   .content-view-button:disabled {
     border: 1px solid #c1c7d0;
     color: #5e6c84;
   }
+
+  /* .blue-btn {
+    background-color: #4053fc;
+    color: #fff;
+  } */
 
   .about-me {
     width: 100%;
