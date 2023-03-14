@@ -1,4 +1,6 @@
-# Portfolio Project
+
+# Portfolio Mobile Menu
+
 
 <a name="readme-top"></a>
 
@@ -15,7 +17,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -26,16 +28,19 @@
 
 
 
-# 📖 [Portfolio Desktop Version] <a name="about-project"></a>
-
->This project is about deploying a responsive portfolio project built with html and css.
-
-**[Portfolio Project]** 
-
-## 🛠 Built With <a name="built-with"> HTML and CSS</a>
+# 📖 [Portfolio Mobile Menu] <a name="about-project"></a>
 
 
+>This project is about building an interactive mobile menu with javascript.
 
+**[Portfolio Mobile Menu]** 
+
+
+## 🛠 Built With <a name="built-with"> HTML, CSS and JS</a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+This Project was buiilt using simple html, css and js to for mobile and desktop screens
 
 ### Key Features <a name="key-features"></a>
 
@@ -43,22 +48,18 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+
+ ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://afakhriddinov.github.io/Portfolio-desktop-version/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-Text editor and internet browser and github account
 
 ### Setup
 
@@ -70,6 +71,35 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Prerequisites
+
+In order to run this project you need: Text editor and internet browser and github account
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Install
+
+clone this project to your local environment and open in the browser
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Usage
+
+Use this project in the browsers of mobile phones and desktops
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Run tests
+
+npm run test
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Deployment
+
+You can deploy this project on GitHub Pages
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 👥 Authors <a name="authors"></a>
@@ -91,7 +121,7 @@ Here is my loom video about project description [Presentation](https://www.loom.
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-Add JS functionality
+Add JS functionality for middle section and footer section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

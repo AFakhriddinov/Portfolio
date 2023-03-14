@@ -41,6 +41,12 @@ ul {
   background-color: #fff;
 }
 
+.mobile-menu {
+  display: none;
+}
+
+/* Mobile version */
+
 @media screen and (min-width: 375px) and (max-width: 768px) {
   .top-nav {
     background-color: #fff;
@@ -54,6 +60,14 @@ ul {
     left: 0;
     padding: 26px 24px;
   }
+
+  /* .fix-to-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  } */
 
   .my-logo {
     font-weight: 700;
@@ -72,8 +86,51 @@ ul {
     display: none;
   }
 
-  .menu-button {
-    border: none;
+  .mobile-menu {
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    height: 790px;
+    background: #6070ff;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(6px);
+  }
+
+  .mobile-menu-x {
+    width: 13px;
+    height: 13px;
+    margin-top: 26px;
+    margin-right: 24px;
+    margin-left: auto;
+    display: block;
+  }
+
+  .mobile-menu-ul {
+    margin-top: 63px;
+    margin-left: 28px;
+  }
+
+  .mobile-menu-li {
+    padding-bottom: 12px;
+  }
+
+  .mobile-menu-a {
+    font-weight: 600;
+    font-size: 27px;
+    color: white;
+  }
+
+  #menu-button {
+    cursor: pointer;
+  }
+
+  #close-button {
+    cursor: pointer;
   }
 
   .headline_section {
@@ -143,7 +200,7 @@ ul {
     padding: 24px;
     margin-top: 90px;
     justify-content: center;
-    gap: 88px;
+    gap: 87px;
     align-items: center;
     width: 100%;
   }
@@ -182,34 +239,34 @@ ul {
     font-weight: 700;
     color: #172b4d;
     font-style: normal;
-    font-size: 32px;
+    font-size: 31px;
   }
 
   .call {
     color: #344563;
     font-style: normal;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
   }
 
   .profession {
     color: #7a869a;
     font-style: normal;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
   }
 
   .year {
     color: #7a869a;
     font-style: normal;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
   }
 
   .job-explanation {
     color: #344563;
     font-style: normal;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
   }
 
@@ -233,7 +290,7 @@ ul {
   .content-view-button {
     color: #396df2;
     font-style: normal;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     border: 1px solid #6070ff;
     border-radius: 8px;
@@ -274,7 +331,7 @@ ul {
   .get-resume {
     color: #396df2;
     font-style: normal;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     text-align: center;
     letter-spacing: 0.03em;
@@ -498,8 +555,9 @@ ul {
     font-size: 30px;
   }
 
-  .menu-button {
+  #menu-button {
     display: none;
+    cursor: pointer;
   }
 
   .menu-content {
