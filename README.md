@@ -1,4 +1,6 @@
-# Portfolio Desktop Version
+
+# Portfolio Mobile Menu
+
 
 <a name="readme-top"></a>
 
@@ -15,7 +17,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -26,35 +28,38 @@
 
 
 
-# 📖 [Portfolio Desktop Version] <a name="about-project"></a>
-
->This project is about building a responsive portfolio project for desktop version with html and css.
-
-**[Portfolio Desktop Version]** 
-
-## 🛠 Built With <a name="built-with"> HTML and CSS</a>
+# 📖 [Portfolio Mobile Menu] <a name="about-project"></a>
 
 
+>This project is about building an interactive mobile menu with javascript.
 
+**[Portfolio Mobile Menu]** 
+
+
+## 🛠 Built With <a name="built-with"> HTML, CSS and JS</a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+This Project was buiilt using simple html, css and js to for mobile and desktop screens
 
 ### Key Features <a name="key-features"></a>
 
-- **[Toolbar, headline section, content about works accomplished and contact form. The project was made responsive for desktop screens of minimum 768px]**
+- **[Toolbar, headline section, content about works accomplished and contact form. The project was made responsive for mobile screens of minimum 375px and maximum 768px. Also, it was built for desktop screens of minimum 768px]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+ ## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://afakhriddinov.github.io/Portfolio-desktop-version/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-Text editor and internet browser and github account
 
 ### Setup
 
@@ -66,6 +71,35 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Prerequisites
+
+In order to run this project you need: Text editor and internet browser and github account
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Install
+
+clone this project to your local environment and open in the browser
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Usage
+
+Use this project in the browsers of mobile phones and desktops
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Run tests
+
+npm run test
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Deployment
+
+You can deploy this project on GitHub Pages
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 👥 Authors <a name="authors"></a>
@@ -76,6 +110,9 @@ Clone this repository to your desired folder:
 - Twitter: [@facebookhandle](https://www.facebook.com/abdulaziz.faxriddinov)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-aziz-fakhriddinov-5297a6107/)
 
+Here is my loom video about project description [Presentation](https://www.loom.com/share/054692bcffce4dc7ad3982a5e2a27629)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +121,7 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-Add JS functionality
+Add JS functionality for middle section and footer section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
