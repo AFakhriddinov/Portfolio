@@ -75,6 +75,14 @@ ul {
     line-height: 20px;
     color: #6070ff;
   }
+  
+  #menu-button {
+    cursor: pointer;
+  }
+
+  #close-button {
+    cursor: pointer;
+  }
 
   .menu {
     padding: 0;
