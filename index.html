@@ -4,13 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./styles.css" />
     <script src="./javascript.js"></script>
     <title>Mobile first portfolio</title>
   </head>
   <body>
     <!-- Navigation section -->
-    <header class="top-nav fix-to-top">
+    <header class="top-nav fix-to-top" id="header">
       <div>
         <a href="#logo" class="my-logo">My Logo</a>
       </div>
@@ -58,7 +66,7 @@
       </div>
     </header>
     <!-- Main content -->
-    <section class="headline_section">
+    <section class="headline_section" id="headline">
       <div class="div-main">
         <h1 class="main-h1">
           I am Abdulaziz <br />
@@ -122,11 +130,22 @@
       </div>
     </section>
     <!-- Middle section -->
-    <div class="popup">
+    <div id="popup-window">
+      <script>
+        popup(number);
+      </script>
+    </div>
+    <!-- <div class="popup" id="popup">
       <div class="sub-popup">
         <div class="popup-heading">
           <h1 class="popup-h1">Tonic</h1>
-          <img onclick="" class="popup-x" src="./images/popup-x.png" alt="" />
+          <img
+            onclick="closePopup()"
+            id="close-popup"
+            class="popup-x"
+            src="./images/popup-x.png"
+            alt=""
+          />
         </div>
         <ul class="layout">
           <li class="call">Canopy</li>
@@ -135,11 +154,7 @@
           <li><img src="images/point.svg" alt="." /></li>
           <li class="year">2015</li>
         </ul>
-        <img
-          src="images/Snapshoot Portfolio1.png"
-          alt="Work 2"
-          class="popup-img"
-        />
+        <img src="images/popup1.png" alt="Work 2" class="popup-img" />
         <div class="popup-bottom">
           <p class="popup-p">
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -195,7 +210,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div id="project-portfolio">
       <script>
         project();
@@ -356,7 +371,7 @@
       </div>
     </section> -->
     <!-- About me section -->
-    <section class="about-me" id="about">
+    <section class="about-me blur" id="about">
       <div class="page">
         <h2 class="head">
           About
@@ -437,7 +452,7 @@
       </div>
     </section>
 
-    <section class="contact-form" id="contact">
+    <section class="contact-form blur" id="contact">
       <div class="contact-tittle">
         <h2 class="contact-me-text">Contact me</h2>
       </div>
