@@ -37,7 +37,7 @@
 ## 🛠 Built With <a name="built-with"> HTML, CSS and JS</a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
+<details>
 <summary>Database</summary>
   <ul>
     <li><a href="#>Local server</a></li>
