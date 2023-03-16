@@ -59,7 +59,7 @@ This Project was buiilt using simple html, css and js to for mobile and desktop 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps below
 
 ### Setup
 
