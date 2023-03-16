@@ -514,6 +514,7 @@ ul {
     color: #5e6c84;
     border: 1px solid #c1c7d0;
   }
+
   #popup {
     display: none;
   }
@@ -525,10 +526,9 @@ ul {
     align-items: center;
     justify-content: space-between;
     width: 80%;
-    height: fit-content;
+    /* height: auto; */
     z-index: 100;
     background-color: white;
-
     position: fixed;
     top: 50px;
     right: 0;
@@ -585,7 +585,10 @@ ul {
     display: flex;
     color: #6070ff;
     background: #ebebff;
-    margin: 24px 24px 24px 0px;
+    margin-top: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    margin-bottom: 0px;
     padding: 4px 12px;
     letter-spacing: 0.03em;
     border-radius: 5px;
@@ -599,6 +602,7 @@ ul {
     width: 100%;
     justify-content: space-evenly;
     margin: auto;
+    padding-top: 30px;
   }
 
   .two-buttons {
@@ -932,10 +936,9 @@ ul {
     align-items: center;
     justify-content: space-between;
     width: 80%;
-    height: fit-content;
+    height: auto;
     z-index: 100;
     background-color: white;
-
     position: fixed;
     top: 50px;
     right: 0;
@@ -978,7 +981,6 @@ ul {
 
   .popup-bottom {
     display: flex;
-    /* flex-direction: row; */
     width: 100%;
     height: auto;
     padding-top: 15px;
