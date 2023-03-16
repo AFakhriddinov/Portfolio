@@ -468,7 +468,7 @@
         </p>
       </div>
 
-      <form action="https://formspree.io/f/xayzjewb" method="post">
+      <form id="form" action="https://formspree.io/f/xayzjewb" method="post">
         <input
           id="username"
           type="text"
@@ -480,13 +480,14 @@
         />
 
         <input
-          id="useremail"
+          id="user-email"
           type="email"
           name="email"
           required
           title="Only emails are allowed here"
           placeholder="alexandra@gmail.com"
         />
+        <div id="error"></div>
 
         <textarea
           id="message"
@@ -499,7 +500,15 @@
           placeholder="Write your message here"
         ></textarea>
 
-        <button id="submit" type="submit">Get in touch</button>
+        <button
+          onclick="validateForm()"
+          id="submit"
+          type="submit"
+          name="submit"
+          value="submit"
+        >
+          Get in touch
+        </button>
       </form>
     </section>
   </body>

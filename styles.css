@@ -469,6 +469,17 @@ ul {
     color: #172b4d;
   }
 
+  #error {
+    width: 100%;
+    margin-bottom: 18px;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    padding: 15px 38px 15px 16px;
+    display: none;
+    color: red;
+    background-color: whitesmoke;
+  }
+
   form textarea {
     width: 100%;
     margin-bottom: 18px;
@@ -1209,6 +1220,17 @@ ul {
     border: 1px solid #cfd8dc;
     padding: 5px 10px 5px 10px;
     color: #172b4d;
+  }
+
+  #error {
+    color: red;
+    width: 447px;
+    height: 53px;
+    margin-bottom: 12px;
+    border: 1px solid #cfd8dc;
+    padding: 5px 10px 5px 10px;
+    display: none;
+    background-color: whitesmoke;
   }
 
   form textarea {
