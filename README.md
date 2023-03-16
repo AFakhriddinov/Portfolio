@@ -37,18 +37,25 @@
 ## 🛠 Built With <a name="built-with"> HTML, CSS and JS</a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
+
+
+
+
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="#>Local server</a></li>
+    <li><a href="#">Local server</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **Popup window built with JavaScript**
-- **Dynamic middle section built with JavaScript**
-- **Blurred background when popup content is open**
+> Describe between 1-3 key features of the application.
+
+- **[Popup window]**
+- **[Dynamic middle section]**
+- **[Blurred background with popup]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
