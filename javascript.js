@@ -1,12 +1,13 @@
 // mobile menu section
-function myFunction() {
-  document.getElementById('mobile-menu').style.visibility = 'visible';
-  document.getElementById('menu-button').style.visibility = 'hidden';
-}
-function myFunction2() {
-  document.getElementById('mobile-menu').style.visibility = 'hidden';
-  document.getElementById('menu-button').style.visibility = 'visible';
-}
+// function myFunction() {
+//   document.getElementById("mobile-menu").style.visibility = "visible";
+//   document.getElementById("menu-button").style.visibility = "hidden";
+// }
+
+// function myFunction2() {
+//   document.getElementById("mobile-menu").style.visibility = "hidden";
+//   document.getElementById("menu-button").style.visibility = "visible";
+// }
 
 // projects section with popup window
 
@@ -132,6 +133,9 @@ function project() {
   }
   // a.appendChild();
 }
+
+project();
+
 function removeBlur() {
   document.getElementById('header').style.filter = 'blur(0px)';
   document.getElementById('headline').style.filter = 'blur(0px)';
@@ -145,6 +149,8 @@ function closePopup() {
   // project();
   removeBlur();
 }
+
+closePopup();
 
 // function blur() {
 //   let addBlur = document.querySelectorAll(".blur");
@@ -230,5 +236,7 @@ function popup(number) {
 
   // b.appendChild();
 }
+
+popup();
 
 // make function and if to set bg to blur when popup is open
