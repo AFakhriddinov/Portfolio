@@ -1,5 +1,5 @@
 
-# Portfolio Popup window
+# Portfolio Contact Form Validation
 
 
 <a name="readme-top"></a>
@@ -28,23 +28,31 @@
 
 
 
-# 📖 [Portfolio Popup Window] <a name="about-project"></a>
+# 📖 [Portfolio Contact Form Validation] <a name="about-project"></a>
 
 
 >This project is about building a popup window for projects section with javascript.
 
-**[Portfolio Popup Window]** 
+**[Portfolio Contact Form Validation]** 
 
 
 ## 🛠 Built With <a name="built-with"> HTML, CSS and JS</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-This Project was buiilt using simple html, css and js to for mobile and desktop screens
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="#">Local server</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[Toolbar, headline section, content about works accomplished and contact form. The project was made responsive for mobile screens of minimum 375px and maximum 768px. Also, it was built for desktop screens of minimum 768px. Popup window was added with JS functionality]**
+- **[form validation]**
+- **[alert message if incorrect input]**
+- **[submit form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +128,7 @@ Here is my loom video about project description [Presentation](https://www.loom.
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-Add JS functionality for footer section
+Add more pages to details section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
