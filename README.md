@@ -28,7 +28,7 @@
 
 
 
-# 📖 [Portfolio Mobile Menu] <a name="about-project"></a>
+# 📖 [Portfolio Popup Window] <a name="about-project"></a>
 
 
 >This project is about building a popup window for projects section with javascript.
