@@ -1,69 +1,73 @@
 // mobile menu section
-// function myFunction() {
-//   document.getElementById("mobile-menu").style.visibility = "visible";
-//   document.getElementById("menu-button").style.visibility = "hidden";
-// }
+function myFunction() {
+  document.getElementById("mobile-menu").style.visibility = "visible";
+  document.getElementById("menu-button").style.visibility = "hidden";
+}
 
-// function myFunction2() {
-//   document.getElementById("mobile-menu").style.visibility = "hidden";
-//   document.getElementById("menu-button").style.visibility = "visible";
-// }
+myFunction();
+
+function myFunction2() {
+  document.getElementById("mobile-menu").style.visibility = "hidden";
+  document.getElementById("menu-button").style.visibility = "visible";
+}
+
+myFunction2();
 
 // projects section with popup window
 
 const array = [
   {
     number: 0,
-    heading: 'Tonic',
+    heading: "Tonic",
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: 'images/Snapshoot Portfolio1.png',
-    popupImage: 'images/popup1.png',
-    languages: ['html', 'css', 'javascript', 'Ruby', 'GitHub', 'Bootstrap'],
-    profession: ['Canopy', 'Full Stack Dev', '2015'],
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    image: "images/Snapshoot Portfolio1.png",
+    popupImage: "images/popup1.png",
+    languages: ["html", "css", "javascript", "Ruby", "GitHub", "Bootstrap"],
+    profession: ["Canopy", "Full Stack Dev", "2015"],
     popupDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and when an unknown printer took a galley of type and scrambled it 1960s",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and when an unknown printer took a galley of type and and when an  unknown printer took a galley of type and scrambled it 1960s",
   },
   {
     number: 1,
-    heading: 'Multi-Post Stories',
+    heading: "Multi-Post Stories",
     description:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    image: 'images/Snapshoot Portfolio2.png',
-    popupImage: 'images/popup2.png',
-    languages: ['html', 'css', 'javascript', 'Ruby', 'GitHub', 'Bootstrap'],
-    profession: ['FACEBOOK', 'Full Stack Dev', '2015'],
+      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
+    image: "images/Snapshoot Portfolio2.png",
+    popupImage: "images/popup2.png",
+    languages: ["html", "css", "javascript", "Ruby", "GitHub", "Bootstrap"],
+    profession: ["FACEBOOK", "Full Stack Dev", "2015"],
     popupDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and when an unknown printer took a galley of type and scrambled it 1960s",
   },
   {
     number: 2,
-    heading: 'Facebook 360',
+    heading: "Facebook 360",
     description:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    image: 'images/Snapshoot Portfolio3.png',
-    popupImage: 'images/popup3.png',
-    languages: ['html', 'css', 'javascript', 'Ruby', 'GitHub', 'Bootstrap'],
-    profession: ['FACEBOOK', 'Full Stack Dev', '2015'],
+    image: "images/Snapshoot Portfolio3.png",
+    popupImage: "images/popup3.png",
+    languages: ["html", "css", "javascript", "Ruby", "GitHub", "Bootstrap"],
+    profession: ["FACEBOOK", "Full Stack Dev", "2015"],
     popupDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and when an unknown printer took a galley of type and scrambled it 1960s",
   },
   {
     number: 3,
-    heading: 'Uber Navigation',
+    heading: "Uber Navigation",
     description:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    image: 'images/Snapshoot Portfolio4.png',
-    popupImage: 'images/popup4.png',
-    languages: ['html', 'css', 'javascript', 'Ruby', 'GitHub', 'Bootstrap'],
-    profession: ['Uber', 'Lead Developer', '2018'],
+      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+    image: "images/Snapshoot Portfolio4.png",
+    popupImage: "images/popup4.png",
+    languages: ["html", "css", "javascript", "Ruby", "GitHub", "Bootstrap"],
+    profession: ["Uber", "Lead Developer", "2018"],
     popupDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and when an unknown printer took a galley of type and scrambled it 1960s",
   },
 ];
 
 function project() {
-  const a = document.getElementById('project-portfolio');
+  let a = document.getElementById("project-portfolio");
   for (let i = 0; i < array.length; i += 1) {
     if (i % 2 === 0) {
       a.innerHTML += `
@@ -100,7 +104,7 @@ function project() {
     } else {
       a.innerHTML += `
     <section class="works" id="portfolio">
-    <div class="content" id="project1">
+    <div class="content content-reverse" id="project1">
       <div class="content-body" id="content-body">
         <h2 class="content-title">${array[i].heading}</h2>
         <ul class="layout">
@@ -131,44 +135,35 @@ function project() {
   </section>`;
     }
   }
-  // a.appendChild();
 }
 
 project();
 
 function removeBlur() {
-  document.getElementById('header').style.filter = 'blur(0px)';
-  document.getElementById('headline').style.filter = 'blur(0px)';
-  document.getElementById('about').style.filter = 'blur(0px)';
-  document.getElementById('contact').style.filter = 'blur(0px)';
-  document.getElementById('project-portfolio').style.filter = 'blur(0px)';
+  document.getElementById("header").style.filter = "blur(0px)";
+  document.getElementById("headline").style.filter = "blur(0px)";
+  document.getElementById("about").style.filter = "blur(0px)";
+  document.getElementById("contact").style.filter = "blur(0px)";
+  document.getElementById("project-portfolio").style.filter = "blur(0px)";
 }
 
 function closePopup() {
-  document.getElementById('popup').style.display = 'none';
-  // project();
+  document.getElementById("popup").style.display = "none";
   removeBlur();
+  document.getElementById("header").style.position = "fixed";
 }
 
-closePopup();
-
-// function blur() {
-//   let addBlur = document.querySelectorAll(".blur");
-//   addBlur.style.filter = "blur(5px)";
-// }
 function makeBlur() {
-  document.getElementById('header').style.filter = 'blur(10px)';
-  document.getElementById('headline').style.filter = 'blur(10px)';
-  document.getElementById('about').style.filter = 'blur(10px)';
-  document.getElementById('contact').style.filter = 'blur(10px)';
-  document.getElementById('project-portfolio').style.filter = 'blur(10px)';
+  document.getElementById("header").style.filter = "blur(10px)";
+  document.getElementById("headline").style.filter = "blur(10px)";
+  document.getElementById("about").style.filter = "blur(10px)";
+  document.getElementById("contact").style.filter = "blur(10px)";
+  document.getElementById("project-portfolio").style.filter = "blur(10px)";
 }
 
 function popup(number) {
-  const b = document.getElementById('popup-window');
+  const b = document.getElementById("popup-window");
   makeBlur();
-
-  // addBlur.style.filter = "blur(5px)";
 
   b.innerHTML = `
     <div class="popup" id="popup">
@@ -176,7 +171,6 @@ function popup(number) {
         <div class="popup-heading">
           <h1 class="popup-h1">${array[number].heading}</h1>
           <img
-
             onclick="closePopup()"
             id="close-popup"
             class="popup-x"
@@ -205,11 +199,9 @@ function popup(number) {
               <li class="platform program-li">
                 <a href="#JS">${array[number].languages[2]}</a>
               </li>
-              
-              
 
             </ul>
-            
+
             <div class="parent-two-buttons">
               <button type="button" class="two-buttons">
                 <a href="#" class="live-a"> See live </a>
@@ -222,21 +214,9 @@ function popup(number) {
             </div>
             </div
             </div>
-            
-
-              
-            
-          
       </div>
     </div>
 
     `;
-
-  document.getElementById('popup').style.display = 'block';
-
-  // b.appendChild();
+  document.getElementById("header").style.position = "static";
 }
-
-popup();
-
-// make function and if to set bg to blur when popup is open

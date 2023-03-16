@@ -217,6 +217,10 @@ ul {
     padding: 16px;
   }
 
+  .content-reverse {
+    flex-direction: column-reverse;
+  }
+
   .content-picture {
     width: inherit;
   }
@@ -515,25 +519,22 @@ ul {
     border: 1px solid #c1c7d0;
   }
 
-  #popup {
-    display: none;
-  }
-
   .popup {
     display: flex;
     border-radius: 16px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     z-index: 100;
     background-color: white;
     position: fixed;
-    top: 50px;
+    top: 40px;
     right: 0;
     bottom: 0;
     left: 0;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 40px;
   }
 
   .sub-popup {
@@ -562,8 +563,9 @@ ul {
 
   .popup-img {
     width: 100%;
-    height: 300px;
+    height: 180px;
     margin-top: 15px;
+    margin-bottom: 10px;
     border-radius: 8px;
   }
 
@@ -577,16 +579,15 @@ ul {
   .program {
     display: flex;
     width: 100%;
-    margin-top: 20px;
   }
 
   .program-li {
     display: flex;
     color: #6070ff;
     background: #ebebff;
-    margin-top: 24px;
-    margin-right: 24px;
-    margin-bottom: 30px;
+    margin-top: 18px;
+    margin-right: 14px;
+    margin-bottom: 15px;
     margin-left: 0;
     padding: 4px 12px;
     letter-spacing: 0.03em;
@@ -600,14 +601,16 @@ ul {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+    align-content: center;
     margin: auto;
-    padding-top: 30px;
+    margin-top: 20px;
   }
 
   .two-buttons {
     display: flex;
     flex-direction: row;
     width: 40%;
+    height: 50px;
     border: thin solid #252f89;
     border-radius: 8px;
     background-color: white;
@@ -616,7 +619,7 @@ ul {
 
   .live-a {
     color: #396df2;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     padding: 10px 12px 8px 19px;
   }
@@ -631,13 +634,13 @@ ul {
   .icon {
     width: 16px;
     height: 16px;
-    margin-top: 8px;
+    margin-top: 13px;
   }
 
   .icon2 {
     width: 17px;
     height: 20px;
-    margin-top: 8px;
+    margin-top: 12px;
   }
 }
 
@@ -853,7 +856,6 @@ ul {
 
   .programming {
     display: flex;
-    flex-direction: row;
     margin-bottom: 20px;
   }
 
@@ -864,14 +866,13 @@ ul {
 
   .platform a {
     display: flex;
-    flex-direction: row;
     background: #ebebff;
     border-radius: 8px;
     color: #6070ff;
     font-weight: 500;
     font-size: 12px;
     background-color: #ebebff;
-    padding: 4px 12px 4px 12px;
+    padding: 4px 5px 4px 8px;
     letter-spacing: 3%;
     line-height: 16px;
   }
@@ -924,10 +925,6 @@ ul {
     color: #5e6c84;
   }
 
-  #popup {
-    display: none;
-  }
-
   .popup {
     display: flex;
     border-radius: 16px;
@@ -935,16 +932,15 @@ ul {
     align-items: center;
     justify-content: space-between;
     width: 80%;
-    height: auto;
     z-index: 100;
     background-color: white;
     position: fixed;
-    top: 50px;
+    top: 20px;
     right: 0;
     bottom: 0;
     left: 0;
-    border: thin solid black;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 20px;
   }
 
   .sub-popup {
@@ -993,50 +989,55 @@ ul {
   }
 
   .popup-lang {
-    width: 35%;
-    margin-left: 3%;
+    width: 38%;
+    margin-left: 2%;
   }
 
   .parent-two-buttons {
     display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;
     width: 100%;
+    gap: 10px;
+    padding-top: 20px;
   }
 
   .two-buttons {
+    width: 142px;
+    height: 40px;
     display: flex;
-    margin-top: 30px;
-    margin-right: auto;
     flex-direction: row;
-    width: 40%;
-    border: thin solid #252f89;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #fff;
+    border: 1px solid #6070ff;
     border-radius: 8px;
-    background-color: white;
+    padding-top: 10px;
   }
 
   .live-a {
-    color: #396df2;
-    font-size: 15px;
-    font-weight: 400;
-    padding: 10px 12px 8px 19px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #6070ff;
   }
 
   .live-a2 {
-    font-size: 15px;
-    color: #396df2;
-    font-weight: 400;
-    padding: 10px 12px 8px 8px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #6070ff;
   }
 
   .icon {
     width: 16px;
     height: 16px;
-    margin-top: 8px;
   }
 
   .icon2 {
     width: 17px;
     height: 20px;
-    margin-top: 8px;
   }
 
   .about-me {
