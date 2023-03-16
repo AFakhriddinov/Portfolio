@@ -33,8 +33,6 @@
 
 >This project is about building a popup window for projects section with javascript.
 
-**[Portfolio Contact Form Validation]** 
-
 
 ## 🛠 Built With <a name="built-with"> HTML, CSS and JS</a>
 
@@ -50,9 +48,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[form validation]**
-- **[alert message if incorrect input]**
-- **[submit form]**
+- **Form validation**
+- **Alert message if incorrect input**
+- **Submit form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
