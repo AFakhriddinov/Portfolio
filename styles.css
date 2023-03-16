@@ -600,47 +600,47 @@ ul {
   .parent-two-buttons {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 5%;
+    padding-top: 20px;
+    justify-content: center;
     align-content: center;
-    margin: auto;
-    margin-top: 20px;
   }
 
   .two-buttons {
+    width: 136px;
+    height: 48px;
+    border-radius: 8px;
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
-    width: 40%;
-    height: 50px;
-    border: thin solid #252f89;
-    border-radius: 8px;
-    background-color: white;
-    justify-content: space-evenly;
+    background-color: #fff;
+    border: 1px solid #6070ff;
+    justify-content: space-around;
+    align-content: center;
   }
 
   .live-a {
     color: #396df2;
     font-size: 16px;
     font-weight: 400;
-    padding: 10px 12px 8px 19px;
   }
 
   .live-a2 {
     font-size: 15px;
     color: #396df2;
     font-weight: 400;
-    padding: 10px 12px 8px 8px;
   }
 
   .icon {
     width: 16px;
     height: 16px;
-    margin-top: 13px;
+    margin-top: 5px;
   }
 
   .icon2 {
     width: 17px;
     height: 20px;
-    margin-top: 12px;
   }
 }
 
@@ -1018,16 +1018,16 @@ ul {
 
   .live-a {
     font-weight: 600;
-    font-size: 13px;
-    line-height: 20px;
     color: #6070ff;
+    line-height: 20px;
+    font-size: 13px;
   }
 
   .live-a2 {
-    font-weight: 600;
     font-size: 13px;
-    line-height: 20px;
+    font-weight: 600;
     color: #6070ff;
+    line-height: 20px;
   }
 
   .icon {
