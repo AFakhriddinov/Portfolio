@@ -1,5 +1,5 @@
 
-# Portfolio Popup window
+# Portfolio Preserve Form Data
 
 
 <a name="readme-top"></a>
@@ -28,20 +28,15 @@
 
 
 
-# 📖 [Portfolio Popup Window] <a name="about-project"></a>
+# 📖 [Portfolio Preserve Form Data] <a name="about-project"></a>
 
 
->This project is about building a popup window for projects section with javascript.
+>This project is about making form data saved in local storage with javascript.
 
 
 ## 🛠 Built With <a name="built-with"> HTML, CSS and JS</a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-
-
-
-
 <details>
 <summary>Database</summary>
   <ul>
@@ -53,9 +48,8 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[Popup window]**
-- **[Dynamic middle section]**
-- **[Blurred background with popup]**
+- **[Saving form data in local storage]**
+- **[Filling input fields with data from local storage when the page loads]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,7 +125,7 @@ Here is my loom video about project description [Presentation](https://www.loom.
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-Add JS functionality for footer section
+Add slideshow to headline section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
