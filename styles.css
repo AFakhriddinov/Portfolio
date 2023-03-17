@@ -535,6 +535,7 @@ ul {
     left: 0;
     margin: auto;
     margin-bottom: 40px;
+    overflow: auto;
   }
 
   .sub-popup {
