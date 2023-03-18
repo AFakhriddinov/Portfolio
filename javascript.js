@@ -4,10 +4,21 @@ function myFunction() {
   document.getElementById('menu-button').style.visibility = 'hidden';
 }
 
+
 function myFunction2() {
   document.getElementById('mobile-menu').style.visibility = 'hidden';
   document.getElementById('menu-button').style.visibility = 'visible';
 }
+
+
+
+
+function myFunction2() {
+  document.getElementById('mobile-menu').style.visibility = 'hidden';
+  document.getElementById('menu-button').style.visibility = 'visible';
+}
+
+
 
 // projects section with popup window
 
@@ -22,7 +33,7 @@ const array = [
     languages: ['html', 'css', 'javascript', 'Ruby', 'GitHub', 'Bootstrap'],
     profession: ['Canopy', 'Full Stack Dev', '2015'],
     popupDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and when an unknown printer took a galley of type and scrambled it 1960s",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and when an unknown printer took a galley of type and and when an  unknown printer took a galley of type and scrambled it 1960s",
   },
   {
     number: 1,
@@ -100,7 +111,7 @@ function project() {
     } else {
       a.innerHTML += `
     <section class="works" id="portfolio">
-    <div class="content" id="project1">
+    <div class="content content-reverse" id="project1">
       <div class="content-body" id="content-body">
         <h2 class="content-title">${array[i].heading}</h2>
         <ul class="layout">
@@ -146,9 +157,10 @@ function removeBlur() {
 function closePopup() {
   document.getElementById('popup').style.display = 'none';
   removeBlur();
+  document.getElementById('header').style.position = 'fixed';
 }
-
 closePopup();
+
 function makeBlur() {
   document.getElementById('header').style.filter = 'blur(10px)';
   document.getElementById('headline').style.filter = 'blur(10px)';
@@ -166,7 +178,6 @@ function popup(number) {
         <div class="popup-heading">
           <h1 class="popup-h1">${array[number].heading}</h1>
           <img
-
             onclick="closePopup()"
             id="close-popup"
             class="popup-x"
@@ -195,11 +206,9 @@ function popup(number) {
               <li class="platform program-li">
                 <a href="#JS">${array[number].languages[2]}</a>
               </li>
-              
-              
 
             </ul>
-            
+
             <div class="parent-two-buttons">
               <button type="button" class="two-buttons">
                 <a href="#" class="live-a"> See live </a>
@@ -217,10 +226,11 @@ function popup(number) {
 
     `;
 
+
   document.getElementById('popup').style.display = 'block';
 }
 
-popup();
+
 
 // Validate contact form
 
@@ -237,3 +247,7 @@ function validateForm(event) {
 validateForm();
 myFunction();
 myFunction2();
+  document.getElementById('header').style.position = 'static';
+}
+
+popup();

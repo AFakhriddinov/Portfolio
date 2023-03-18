@@ -39,6 +39,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 
+
 <details>
 <summary>Database</summary>
   <ul>
@@ -48,9 +49,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Form validation**
-- **Alert message if incorrect input**
-- **Submit form**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +64,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps below
 
 ### Setup
 
