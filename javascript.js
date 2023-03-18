@@ -4,21 +4,15 @@ function myFunction() {
   document.getElementById('menu-button').style.visibility = 'hidden';
 }
 
-
 function myFunction2() {
   document.getElementById('mobile-menu').style.visibility = 'hidden';
   document.getElementById('menu-button').style.visibility = 'visible';
 }
 
-
-
-
 function myFunction2() {
   document.getElementById('mobile-menu').style.visibility = 'hidden';
   document.getElementById('menu-button').style.visibility = 'visible';
 }
-
-
 
 // projects section with popup window
 
@@ -144,8 +138,6 @@ function project() {
   }
 }
 
-project();
-
 function removeBlur() {
   document.getElementById('header').style.filter = 'blur(0px)';
   document.getElementById('headline').style.filter = 'blur(0px)';
@@ -159,7 +151,6 @@ function closePopup() {
   removeBlur();
   document.getElementById('header').style.position = 'fixed';
 }
-closePopup();
 
 function makeBlur() {
   document.getElementById('header').style.filter = 'blur(10px)';
@@ -250,4 +241,34 @@ myFunction2();
   document.getElementById('header').style.position = 'static';
 }
 
+// Preserve data in the browser
+
+const form = document.getElementById('form-id');
+const nameInput = document.getElementById('username');
+const message = document.getElementById('message');
+const emailInput = document.getElementById('useremail');
+
+form.addEventListener('input', () => {
+  const formInfo = {
+    name: nameInput.value,
+    email: emailInput.value,
+    message: message.value,
+  };
+  localStorage.setItem('formDetails', JSON.stringify(formInfo));
+});
+
+function displayInfo() {
+  const info = JSON.parse(localStorage.getItem('formDetails'));
+  if (info) {
+    nameInput.value = info.name;
+    emailInput.value = info.email;
+    message.value = info.message;
+  }
+}
+
+displayInfo();
+myFunction();
+myFunction2();
+project();
+closePopup();
 popup();

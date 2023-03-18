@@ -1,5 +1,5 @@
 
-# Portfolio Contact Form Validation
+# Portfolio Preserve Form Data
 
 
 <a name="readme-top"></a>
@@ -28,18 +28,15 @@
 
 
 
-# 📖 [Portfolio Contact Form Validation] <a name="about-project"></a>
+# 📖 [Portfolio Preserve Form Data] <a name="about-project"></a>
 
 
->This project is about building a popup window for projects section with javascript.
+>This project is about making form data saved in local storage with javascript.
 
 
 ## 🛠 Built With <a name="built-with"> HTML, CSS and JS</a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-
-
 <details>
 <summary>Database</summary>
   <ul>
@@ -50,6 +47,8 @@
 ### Key Features <a name="key-features"></a>
 
 
+- **[Saving form data in local storage]**
+- **[Filling input fields with data from local storage when the page loads]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +124,7 @@ Here is my loom video about project description [Presentation](https://www.loom.
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-Add more pages to details section
+Add slideshow to headline section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
