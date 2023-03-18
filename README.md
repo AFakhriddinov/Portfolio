@@ -1,5 +1,5 @@
 
-# Portfolio Mobile Menu
+# Portfolio Popup window
 
 
 <a name="readme-top"></a>
@@ -28,23 +28,34 @@
 
 
 
-# 📖 [Portfolio Mobile Menu] <a name="about-project"></a>
+# 📖 [Portfolio Popup Window] <a name="about-project"></a>
 
 
->This project is about building an interactive mobile menu with javascript.
-
-**[Portfolio Mobile Menu]** 
+>This project is about building a popup window for projects section with javascript.
 
 
 ## 🛠 Built With <a name="built-with"> HTML, CSS and JS</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-This Project was buiilt using simple html, css and js to for mobile and desktop screens
+
+
+
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="#">Local server</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[Toolbar, headline section, content about works accomplished and contact form. The project was made responsive for mobile screens of minimum 375px and maximum 768px. Also, it was built for desktop screens of minimum 768px]**
+> Describe between 1-3 key features of the application.
+
+- **[Popup window]**
+- **[Dynamic middle section]**
+- **[Blurred background with popup]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,7 +70,7 @@ This Project was buiilt using simple html, css and js to for mobile and desktop 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps below
 
 ### Setup
 
@@ -113,7 +124,6 @@ You can deploy this project on GitHub Pages
 Here is my loom video about project description [Presentation](https://www.loom.com/share/054692bcffce4dc7ad3982a5e2a27629)
 
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -121,7 +131,7 @@ Here is my loom video about project description [Presentation](https://www.loom.
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-Add JS functionality for middle section and footer section
+Add JS functionality for footer section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -4,13 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./styles.css" />
-    <script src="./javascript.js"></script>
+
     <title>Mobile first portfolio</title>
   </head>
   <body>
     <!-- Navigation section -->
-    <header class="top-nav fix-to-top">
+    <header class="top-nav fix-to-top" id="header">
       <div>
         <a href="#logo" class="my-logo">My Logo</a>
       </div>
@@ -58,9 +66,9 @@
       </div>
     </header>
     <!-- Main content -->
-    <section class="headline_section">
+    <section class="headline_section" id="headline">
       <div class="div-main">
-        <h1>
+        <h1 class="main-h1">
           I am Abdulaziz <br />
           Glad to see you
         </h1>
@@ -122,162 +130,12 @@
       </div>
     </section>
     <!-- Middle section -->
-    <section class="works" id="portfolio">
-      <div class="content">
-        <img
-          src="images/Snapshoot Portfolio1.png"
-          alt="Work 2"
-          class="content-picture"
-        />
-        <div class="content-body">
-          <h2 class="content-title">Tonic</h2>
-          <ul class="layout">
-            <li class="call">Canopy</li>
-            <li><img src="images/point.svg" alt="." /></li>
-            <li class="profession">Full Stack Dev</li>
-            <li><img src="images/point.svg" alt="." /></li>
-            <li class="year">2015</li>
-          </ul>
-          <p class="job-explanation">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="programming">
-            <li class="platform">
-              <a href="#html">html</a>
-            </li>
-            <li class="platform">
-              <a href="#CSS">css</a>
-            </li>
-            <li class="platform">
-              <a href="#JS">javascript</a>
-            </li>
-          </ul>
-          <button type="button" class="content-view-button">See Project</button>
-        </div>
-      </div>
-    </section>
-    <section class="works">
-      <div class="content">
-        <div class="content-body">
-          <h2 class="content-title">Multi-Post Stories</h2>
-          <ul class="layout">
-            <li class="call">FACEBOOK</li>
-            <li><img src="images/point.svg" alt="." /></li>
-            <li class="profession">Full Stack Dev</li>
-            <li><img src="images/point.svg" alt="." /></li>
-            <li class="year">2015</li>
-          </ul>
-          <p class="job-explanation">
-            Experimental content creation feature that allows users to add to an
-            existing story over the course of a day without spamming their
-            friends.
-          </p>
-          <ul class="programming">
-            <li class="platform">
-              <a href="#html">html</a>
-            </li>
-            <li class="platform">
-              <a href="#ruby">Ruby on rails</a>
-            </li>
-            <li class="platform">
-              <a href="#CSS">css</a>
-            </li>
-            <li class="platform">
-              <a href="#JS">javascript</a>
-            </li>
-          </ul>
-          <button type="button" class="content-view-button blue-btn">
-            See Project
-          </button>
-        </div>
-        <img
-          src="images/Snapshoot Portfolio2.png"
-          alt="Work 2"
-          class="content-picture"
-        />
-      </div>
-    </section>
-    <section class="works">
-      <div class="content">
-        <img
-          src="images/Snapshoot Portfolio3.png"
-          alt="Work 3"
-          class="content-picture"
-        />
-        <div class="content-body">
-          <h2 class="content-title">FACEBOOK 360</h2>
-          <ul class="layout">
-            <li class="call">FACEBOOK</li>
-            <li><img src="images/point.svg" alt="." /></li>
-            <li class="profession">Full Stack Dev</li>
-            <li><img src="images/point.svg" alt="." /></li>
-            <li class="year">2015</li>
-          </ul>
-          <p class="job-explanation">
-            Exploring the future of media in Facebook's first Virtual Reality
-            app; a place to discover and enjoy 360 photos and videos on Gear VR.
-          </p>
-          <ul class="programming">
-            <li class="platform">
-              <a href="#html">html</a>
-            </li>
-            <li class="platform">
-              <a href="#ruby">Ruby on rails</a>
-            </li>
-            <li class="platform">
-              <a href="#CSS">css</a>
-            </li>
-            <li class="platform">
-              <a href="#JS">javascript</a>
-            </li>
-          </ul>
-          <button type="button" class="content-view-button blue-btn">
-            See Project
-          </button>
-        </div>
-      </div>
-    </section>
-    <section class="works">
-      <div class="content">
-        <div class="content-body">
-          <h2 class="content-title">Uber Navigation</h2>
-          <ul class="layout">
-            <li class="call">Uber</li>
-            <li><img src="images/point.svg" alt="." /></li>
-            <li class="profession">Lead Developer</li>
-            <li><img src="images/point.svg" alt="." /></li>
-            <li class="year">2015</li>
-          </ul>
-          <p class="job-explanation">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="programming">
-            <li class="platform">
-              <a href="#html">html</a>
-            </li>
-            <li class="platform">
-              <a href="#ruby">Ruby on rails</a>
-            </li>
-            <li class="platform">
-              <a href="#CSS">css</a>
-            </li>
-            <li class="platform">
-              <a href="#JS">javascript</a>
-            </li>
-          </ul>
-          <button type="button" class="content-view-button">See Project</button>
-        </div>
-        <img
-          src="images/Snapshoot Portfolio4.png"
-          alt="Work 4"
-          class="content-picture"
-        />
-      </div>
-    </section>
+    <div id="popup-window"></div>
+
+    <div id="project-portfolio"></div>
+
     <!-- About me section -->
-    <section class="about-me" id="about">
+    <section class="about-me blur" id="about">
       <div class="page">
         <h2 class="head">
           About
@@ -358,7 +216,7 @@
       </div>
     </section>
 
-    <section class="contact-form" id="contact">
+    <section class="contact-form blur" id="contact">
       <div class="contact-tittle">
         <h2 class="contact-me-text">Contact me</h2>
       </div>
@@ -404,5 +262,6 @@
         <button id="submit" type="submit">Get in touch</button>
       </form>
     </section>
+    <script src="./javascript.js"></script>
   </body>
 </html>
