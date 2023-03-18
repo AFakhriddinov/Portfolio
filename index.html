@@ -65,7 +65,9 @@
         </ul>
       </div>
     </header>
+
     <!-- Main content -->
+
     <section class="headline_section" id="headline">
       <div class="div-main">
         <h1 class="main-h1">
@@ -129,11 +131,13 @@
         </ul>
       </div>
     </section>
+
     <!-- Middle section -->
+
+
     <div id="popup-window"></div>
 
     <div id="project-portfolio"></div>
-
     <!-- About me section -->
     <section class="about-me blur" id="about">
       <div class="page">
@@ -240,13 +244,14 @@
         />
 
         <input
-          id="useremail"
+          id="user-email"
           type="email"
           name="email"
           required
           title="Only emails are allowed here"
           placeholder="alexandra@gmail.com"
         />
+        <div id="error"></div>
 
         <textarea
           id="message"
@@ -259,7 +264,15 @@
           placeholder="Write your message here"
         ></textarea>
 
-        <button id="submit" type="submit">Get in touch</button>
+        <button
+          onclick="validateForm(event)"
+          id="submit"
+          type="submit"
+          name="submit"
+          value="submit"
+        >
+          Get in touch
+        </button>
       </form>
     </section>
     <script src="./javascript.js"></script>

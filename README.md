@@ -46,7 +46,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[Saving form data in local storage]**
 - **[Filling input fields with data from local storage when the page loads]**

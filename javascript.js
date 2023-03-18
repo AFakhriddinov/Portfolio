@@ -9,6 +9,11 @@ function myFunction2() {
   document.getElementById('menu-button').style.visibility = 'visible';
 }
 
+function myFunction2() {
+  document.getElementById('mobile-menu').style.visibility = 'hidden';
+  document.getElementById('menu-button').style.visibility = 'visible';
+}
+
 // projects section with popup window
 
 const array = [
@@ -158,7 +163,6 @@ function makeBlur() {
 function popup(number) {
   const b = document.getElementById('popup-window');
   makeBlur();
-
   b.innerHTML = `
     <div class="popup" id="popup">
       <div class="sub-popup">
@@ -212,6 +216,28 @@ function popup(number) {
     </div>
 
     `;
+
+
+  document.getElementById('popup').style.display = 'block';
+}
+
+
+
+// Validate contact form
+
+function validateForm(event) {
+  const email = document.getElementById('user-email');
+  const errorAlert = document.getElementById('error');
+  if (email.value.toLowerCase() !== email.value) {
+    event.preventDefault();
+    errorAlert.innerText = 'Please use only lowercase letters for email. Form not submitted';
+    errorAlert.style.display = 'block';
+  }
+}
+
+validateForm();
+myFunction();
+myFunction2();
   document.getElementById('header').style.position = 'static';
 }
 
