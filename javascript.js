@@ -1,17 +1,17 @@
 // mobile menu section
 function myFunction() {
-  document.getElementById('mobile-menu').style.visibility = 'visible';
-  document.getElementById('menu-button').style.visibility = 'hidden';
+  document.getElementById("mobile-menu").style.visibility = "visible";
+  document.getElementById("menu-button").style.visibility = "hidden";
 }
 
 function myFunction2() {
-  document.getElementById('mobile-menu').style.visibility = 'hidden';
-  document.getElementById('menu-button').style.visibility = 'visible';
+  document.getElementById("mobile-menu").style.visibility = "hidden";
+  document.getElementById("menu-button").style.visibility = "visible";
 }
 
 function myFunction2() {
-  document.getElementById('mobile-menu').style.visibility = 'hidden';
-  document.getElementById('menu-button').style.visibility = 'visible';
+  document.getElementById("mobile-menu").style.visibility = "hidden";
+  document.getElementById("menu-button").style.visibility = "visible";
 }
 
 // projects section with popup window
@@ -19,56 +19,56 @@ function myFunction2() {
 const array = [
   {
     number: 0,
-    heading: 'Tonic',
+    heading: "Bookstore",
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: 'images/Snapshoot Portfolio1.png',
-    popupImage: 'images/popup1.png',
-    languages: ['html', 'css', 'javascript', 'Ruby', 'GitHub', 'Bootstrap'],
-    profession: ['Canopy', 'Full Stack Dev', '2015'],
+      "Books app created to help people add their favorite books to their online library. People can add and delete books using this app",
+    image: "images/anybooks-app.jpg",
+    popupImage: "images/anybooks.jpg",
+    languages: ["html", "css", "javascript", "Ruby", "GitHub", "Bootstrap"],
+    profession: ["Canopy", "Full Stack Dev", "2015"],
     popupDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and when an unknown printer took a galley of type and and when an  unknown printer took a galley of type and scrambled it 1960s",
+      "Books app created to help people add their favorite books to their online library. People can add and delete books using this app",
   },
   {
     number: 1,
-    heading: 'Multi-Post Stories',
+    heading: "To Do List",
     description:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    image: 'images/Snapshoot Portfolio2.png',
-    popupImage: 'images/popup2.png',
-    languages: ['html', 'css', 'javascript', 'Ruby', 'GitHub', 'Bootstrap'],
-    profession: ['FACEBOOK', 'Full Stack Dev', '2015'],
+      "Todo List app created to help people to list their everyday tasks online. All tasks added are stored in local storage. Users can add, remove, edit and delete tasks",
+    image: "images/todo.jpg",
+    popupImage: "images/popup2.png",
+    languages: ["html", "css", "javascript", "Ruby", "GitHub", "Bootstrap"],
+    profession: ["FACEBOOK", "Full Stack Dev", "2015"],
     popupDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and when an unknown printer took a galley of type and scrambled it 1960s",
+      "Todo List app created to help people to list their everyday tasks online. All tasks added are stored in local storage. Users can add, remove, edit and delete tasks",
   },
   {
     number: 2,
-    heading: 'Facebook 360',
+    heading: "Facebook 360",
     description:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    image: 'images/Snapshoot Portfolio3.png',
-    popupImage: 'images/popup3.png',
-    languages: ['html', 'css', 'javascript', 'Ruby', 'GitHub', 'Bootstrap'],
-    profession: ['FACEBOOK', 'Full Stack Dev', '2015'],
+    image: "images/Snapshoot Portfolio3.png",
+    popupImage: "images/popup3.png",
+    languages: ["html", "css", "javascript", "Ruby", "GitHub", "Bootstrap"],
+    profession: ["FACEBOOK", "Full Stack Dev", "2015"],
     popupDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and when an unknown printer took a galley of type and scrambled it 1960s",
   },
   {
     number: 3,
-    heading: 'Uber Navigation',
+    heading: "Uber Navigation",
     description:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    image: 'images/Snapshoot Portfolio4.png',
-    popupImage: 'images/popup4.png',
-    languages: ['html', 'css', 'javascript', 'Ruby', 'GitHub', 'Bootstrap'],
-    profession: ['Uber', 'Lead Developer', '2018'],
+      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+    image: "images/Snapshoot Portfolio4.png",
+    popupImage: "images/popup4.png",
+    languages: ["html", "css", "javascript", "Ruby", "GitHub", "Bootstrap"],
+    profession: ["Uber", "Lead Developer", "2018"],
     popupDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and when an unknown printer took a galley of type and scrambled it 1960s",
   },
 ];
 
 function project() {
-  const a = document.getElementById('project-portfolio');
+  const a = document.getElementById("project-portfolio");
   for (let i = 0; i < array.length; i += 1) {
     if (i % 2 === 0) {
       a.innerHTML += `
@@ -139,29 +139,29 @@ function project() {
 }
 
 function removeBlur() {
-  document.getElementById('header').style.filter = 'blur(0px)';
-  document.getElementById('headline').style.filter = 'blur(0px)';
-  document.getElementById('about').style.filter = 'blur(0px)';
-  document.getElementById('contact').style.filter = 'blur(0px)';
-  document.getElementById('project-portfolio').style.filter = 'blur(0px)';
+  document.getElementById("header").style.filter = "blur(0px)";
+  document.getElementById("headline").style.filter = "blur(0px)";
+  document.getElementById("about").style.filter = "blur(0px)";
+  document.getElementById("contact").style.filter = "blur(0px)";
+  document.getElementById("project-portfolio").style.filter = "blur(0px)";
 }
 
 function closePopup() {
-  document.getElementById('popup').style.display = 'none';
+  document.getElementById("popup").style.display = "none";
   removeBlur();
-  document.getElementById('header').style.position = 'fixed';
+  document.getElementById("header").style.position = "fixed";
 }
 
 function makeBlur() {
-  document.getElementById('header').style.filter = 'blur(10px)';
-  document.getElementById('headline').style.filter = 'blur(10px)';
-  document.getElementById('about').style.filter = 'blur(10px)';
-  document.getElementById('contact').style.filter = 'blur(10px)';
-  document.getElementById('project-portfolio').style.filter = 'blur(10px)';
+  document.getElementById("header").style.filter = "blur(10px)";
+  document.getElementById("headline").style.filter = "blur(10px)";
+  document.getElementById("about").style.filter = "blur(10px)";
+  document.getElementById("contact").style.filter = "blur(10px)";
+  document.getElementById("project-portfolio").style.filter = "blur(10px)";
 }
 
 function popup(number) {
-  const b = document.getElementById('popup-window');
+  const b = document.getElementById("popup-window");
   makeBlur();
   b.innerHTML = `
     <div class="popup" id="popup">
@@ -217,48 +217,45 @@ function popup(number) {
 
     `;
 
-
-  document.getElementById('popup').style.display = 'block';
+  document.getElementById("popup").style.display = "block";
 }
-
-
 
 // Validate contact form
 
 function validateForm(event) {
-  const email = document.getElementById('user-email');
-  const errorAlert = document.getElementById('error');
+  const email = document.getElementById("user-email");
+  const errorAlert = document.getElementById("error");
   if (email.value.toLowerCase() !== email.value) {
     event.preventDefault();
-    errorAlert.innerText = 'Please use only lowercase letters for email. Form not submitted';
-    errorAlert.style.display = 'block';
+    errorAlert.innerText =
+      "Please use only lowercase letters for email. Form not submitted";
+    errorAlert.style.display = "block";
   }
 }
 
 validateForm();
 myFunction();
 myFunction2();
-  document.getElementById('header').style.position = 'static';
-}
+document.getElementById("header").style.position = "static";
 
 // Preserve data in the browser
 
-const form = document.getElementById('form-id');
-const nameInput = document.getElementById('username');
-const message = document.getElementById('message');
-const emailInput = document.getElementById('useremail');
+const form = document.getElementById("form-id");
+const nameInput = document.getElementById("username");
+const message = document.getElementById("message");
+const emailInput = document.getElementById("useremail");
 
-form.addEventListener('input', () => {
+form.addEventListener("input", () => {
   const formInfo = {
     name: nameInput.value,
     email: emailInput.value,
     message: message.value,
   };
-  localStorage.setItem('formDetails', JSON.stringify(formInfo));
+  localStorage.setItem("formDetails", JSON.stringify(formInfo));
 });
 
 function displayInfo() {
-  const info = JSON.parse(localStorage.getItem('formDetails'));
+  const info = JSON.parse(localStorage.getItem("formDetails"));
   if (info) {
     nameInput.value = info.name;
     emailInput.value = info.email;
