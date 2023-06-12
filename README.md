@@ -55,7 +55,7 @@
 
  ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://afakhriddinov.github.io/Portfolio/)
+- [Live Demo Link](https://portfolio00002.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
