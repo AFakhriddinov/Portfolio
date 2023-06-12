@@ -28,10 +28,10 @@
 
 
 
-# 📖 [Portfolio Preserve Form Data] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
 
->This project is about making form data saved in local storage with javascript.
+>Portfolio website showing my best projects was built with JavaScript. Important features include contact form validation, preserving data in local storage, mobile responsive design
 
 
 ## 🛠 Built With <a name="built-with"> HTML, CSS and JS</a>
@@ -71,7 +71,7 @@ Clone this repository to your desired folder:
 
 
   cd my-folder
-  git clone https://github.com/AFakhriddinov/Portfolio-desktop-version.git
+  git clone https://github.com/AFakhriddinov/Portfolio.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
