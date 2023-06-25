@@ -40,10 +40,6 @@ ul {
 /* Mobile version */
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
-  .hide-contact {
-    display: none;
-  }
-
   .top-nav {
     background-color: #fff;
     width: 100%;
@@ -1268,9 +1264,5 @@ ul {
   #submit:disabled {
     color: #5e6c84;
     border: 1px solid #c1c7d0;
-  }
-
-  .hide-contact {
-    display: none;
   }
 }
